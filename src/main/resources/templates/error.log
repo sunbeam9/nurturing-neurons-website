@@ -1,0 +1,87 @@
+----------
+
+Mon Jan 10 2022 15:15:34 GMT-0800 (Pacific Standard Time)
+
+Could Not Find C:\Users\sunbe\OneDrive\Documents\Nurturing Neurons\New Website\Website\src\main\resources\templates\error.log
+
+
+----------
+
+Mon Jan 10 2022 15:18:21 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
+
+
+----------
+
+Mon Jan 10 2022 15:18:21 GMT-0800 (Pacific Standard Time)
+
+    html['xmlns'] = "http://www.w3.org/1999/xhtml"
+TypeError: 'NoneType' object does not support item assignment
+
+
+----------
+
+Mon Jan 10 2022 15:22:03 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
+
+
+----------
+
+Mon Jan 10 2022 15:22:03 GMT-0800 (Pacific Standard Time)
+
+    html['xmlns'] = "http://www.w3.org/1999/xhtml"
+TypeError: 'NoneType' object does not support item assignment
+
+
+----------
+
+Mon Jan 10 2022 15:23:50 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
+
+
+----------
+
+Mon Jan 10 2022 15:23:50 GMT-0800 (Pacific Standard Time)
+
+    html['xmlns'] = "http://www.w3.org/1999/xhtml"
+TypeError: 'NoneType' object does not support item assignment
+
+
+----------
+
+Mon Jan 10 2022 15:36:05 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
+
+
+----------
+
+Mon Jan 10 2022 15:36:05 GMT-0800 (Pacific Standard Time)
+
+    html['xmlns'] = "http://www.w3.org/1999/xhtml"
+TypeError: 'NoneType' object does not support item assignment
+
+
+----------
+
+Mon Jan 10 2022 15:52:03 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
+
+
+----------
+
+Mon Jan 10 2022 15:52:03 GMT-0800 (Pacific Standard Time)
+
+    html['xmlns'] = "http://www.w3.org/1999/xhtml"
+TypeError: 'NoneType' object does not support item assignment
+
+

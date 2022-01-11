@@ -1,0 +1,332 @@
+:root {
+  --darkBlue: #172345;
+  --grayBlue: #40507E;
+  --lightBlue: #D5ECF4;
+  --lightPink: #FAEEE7;
+  --yellow: #F8D774;
+  --transparent: #00000000;
+  --white: #ffffff;
+  --slider-height: 20vw;
+  --listGroupTransition: all 0.65s;
+}
+
+.title {
+  color: var(--darkBlue);
+  font-family: 'Nunito';
+  font-size: 4em;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1.1em;
+  padding-bottom: 16px;
+}
+
+.subtitle {
+  color: var(--grayBlue);
+  font-family: 'Cedarville Cursive';
+  font-size: 2.1em;
+  font-weight: 900;
+  text-transform: capitalize;
+  line-height: 1em;
+}
+
+.text {
+  color: var(--darkBlue);
+  font-family: 'Nunito Sans';
+  font-size: 1.1em;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.7em;
+}
+
+.heading {
+  color: var(--darkBlue);
+  font-family: 'Nunito';
+  font-size: 1.3em;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1em;
+}
+
+.button {
+  color: var(--darkBlue);
+  background-color: var(--yellow);
+  font-family: 'Nunito Sans';
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: var(--yellow);
+  border-radius: 0px;
+  padding: 15px 30px;
+}
+
+.button:hover {
+  color: var(--darkBlue);
+  background-color: var(--transparent);
+  font-family: 'Nunito Sans';
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: var(--yellow);
+  border-radius: 0px;
+  padding: 15px 30px;
+}
+
+.line {
+  border-top-color: var(--darkBlue);
+  margin-top: 19px;
+  margin-bottom: 19px;
+  display: flex;
+  border-top-width: 1px;
+  border-top-style: solid;
+  width: 100%;
+}
+
+.heading-2 {
+  color: var(--white);
+  font-family: 'Nunito';
+  font-size: 1.9em;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.2em;
+}
+
+.subtitle-2 {
+  color: var(--white);
+  font-family: 'Nunito';
+  font-size: 0.7em;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.25em;
+  letter-spacing: 2px;
+}
+
+.shape {
+  fill: var(--white);
+  width: 100%;
+  height: 100px;
+  transform: rotate(180deg);
+  position: absolute;
+  z-index: 2;
+}
+
+.shape-container {
+  position: absolute;
+  width: 100%;
+  height: var(--slider-height);
+}
+
+.slider-container {
+  position: absolute;
+  width: 100%;
+  height: var(--slider-height);
+}
+
+.shape-slider-container {
+  height: var(--slider-height);
+}
+
+.shape-container-2 {
+  position: absolute;
+  width: 100%;
+}
+
+.list-item {
+  color: var(--grayBlue);
+  font-family: 'Nunito Sans';
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.list-item-icon {
+  color: #90BCDF;
+  font-size: 24px;
+}
+
+.list-item-container {
+  padding-bottom: 6px;
+}
+
+.list-item-container:hover .list-item {
+  color: var(--darkBlue);
+}
+
+.list-item-container:hover .list-item-icon {
+  color: var(--darkBlue);
+}
+
+.grow-animation {
+  transition-duration: 1s;
+  transition-property: transform;
+}
+
+.grow-animation:active, .grow-animation:focus, .grow-animation:hover {
+  transform: scale(1.1);
+}
+
+.grow-animation-2 {
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+
+.grow-animation-2:active, .grow-animation-2:focus, .grow-animation-2:hover {
+  transform: scale(1.05);
+}
+
+.modal:not(.show) {
+  display: none !important;
+}
+
+.slide {
+  transition-duration: 0.5s;
+  width: var(--slider-height);
+  height: var(--slider-height);
+}
+
+.slide-2 {
+  transition-duration: 0s;
+  width: var(--slider-height);
+  height: var(--slider-height);
+}
+
+.sliding {
+  transform: translate3d(-20vw, 0px, 0px);
+}
+
+.counter {
+  background-color: var(--darkBlue);
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.counter-header {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  margin-top: 7px;
+}
+
+.counter-text {
+  color: var(--yellow);
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.list-group-item {
+  font-size: 1.2em;
+  color: var(--grayBlue);
+  font-weight: 700;
+  background-color: inherit;
+  border: none;
+}
+
+.list-group-item-text {
+  align-items: center !important;
+  justify-content: flex-start !important;
+  display: flex !important;
+  flex-direction: row !important;
+  padding: 25px;
+  color: var(--grayBlue);
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+.list-group-item-text:hover {
+  color: var(--darkBlue);
+}
+
+.list-group-text {
+  padding: 0px 0px 0px 25px;
+  margin: 0px;
+  z-index: -1;
+  overflow: hidden;
+  transition: all 0.5s;
+  font-size: 0.9em;
+  line-height: 2em;
+}
+
+.list-group-active {
+  padding: 0px 25px 25px 25px;
+  font-size: 0.9em;
+  margin: 0px;
+  z-index: initial;
+  transition: var(--listGroupTransition);
+  line-height: 2em;
+}
+
+.list-group-icon {
+  margin-right: 7px;
+  font-size: 1.3em;
+  transition: var(--listGroupTransition);
+}
+
+.custom-nav-item {
+  color: var(--grayBlue) !important;
+  font-family: 'Nunito Sans';
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.custom-nav-item:hover {
+  color: var(--darkBlue) !important;
+}
+
+.custom-nav-item.active {
+  color: var(--darkBlue) !important;
+}
+
+.custom-nav-icon {
+  transition: all 0.35s;
+}
+
+.custom-nav-item:hover > .custom-nav-icon {
+  transform: rotate(-180deg);
+}
+
+.custom-nav-dropdown {
+  background-color: var(--white);
+  position: absolute;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.15);
+  display: none !important;
+}
+
+.custom-nav-item:hover + .custom-nav-dropdown {
+  display: flex !important;
+}
+
+.custom-nav-dropdown:hover {
+  display: flex !important;
+}
+
+.custom-nav-item-dropdown {
+  margin: 7px 0px;
+}
+
+.nmc-modal-link:hover {
+  transform: scale(1.1);
+}
+
+.nmc-modal-link {
+  transition: transform 0.5s;
+}
+
