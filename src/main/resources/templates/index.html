@@ -1,346 +1,139 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport"/>
-  <title>
-   Nurturing Neurons
-  </title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&amp;display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Nunito&amp;display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap" rel="stylesheet"/>
-  <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet"/>
-  <link rel="stylesheet" th:href="@{../assets/css/Website-Styles.css}"/>
- </head>
- <body>
-  <nav class="navbar navbar-light navbar-expand-md sticky-top d-flex d-xl-flex flex-row" style="background: var(--white);box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
-   <div class="container-fluid">
-    <button class="navbar-toggler" data-bs-target="#navcol-1" data-bs-toggle="collapse">
-     <span class="visually-hidden">
-      Toggle navigation
-     </span>
-     <span class="navbar-toggler-icon">
-     </span>
-    </button>
-    <div class="collapse navbar-collapse" id="navcol-1">
-     <ul class="navbar-nav d-xl-flex flex-row flex-fill justify-content-evenly mx-auto" style="max-width: 850px;">
-      <li class="nav-item">
-       <a class="nav-link active custom-nav-item" href="/" style="font-family: 'Nunito Sans', sans-serif;">
-        Home
-       </a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link custom-nav-item" href="/about-us" style="font-family: 'Nunito Sans', sans-serif;">
-        About Us
-       </a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link custom-nav-item" href="/events" style="font-family: 'Nunito Sans', sans-serif;">
-        Events
-        <i class="fas fa-angle-down custom-nav-icon" style="margin-left: 7px;">
-        </i>
-       </a>
-       <div class="d-xl-flex custom-nav-dropdown">
-        <a class="custom-nav-item custom-nav-item-dropdown" href="/events/neuroart" style="font-family: 'Nunito Sans', sans-serif;">
-         Neuro Art
-        </a>
-        <a class="custom-nav-item custom-nav-item-dropdown" href="/events/silent-auction" style="font-family: 'Nunito Sans', sans-serif;">
-         Silent Auction
-        </a>
-        <a class="custom-nav-item custom-nav-item-dropdown" href="/events/webinars" style="font-family: 'Nunito Sans', sans-serif;">
-         Webinars
-        </a>
-       </div>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link custom-nav-item" style="font-family: 'Nunito Sans', sans-serif;">
-        Neuromuscular Conditions
-        <i class="fas fa-angle-down custom-nav-icon" style="margin-left: 7px;">
-        </i>
-       </a>
-       <div class="d-xl-flex custom-nav-dropdown">
-        <a class="custom-nav-item custom-nav-item-dropdown" href="/neuromuscular-conditions/cmt" style="font-family: 'Nunito Sans', sans-serif;">
-         <strong>
-          Charcot-Marie-Tooth Disease
-         </strong>
-         <br/>
-        </a>
-        <a class="custom-nav-item custom-nav-item-dropdown" href="/neuromuscular-conditions/dmd" style="font-family: 'Nunito Sans', sans-serif;">
-         <strong>
-          Duchenne Muscular Dystrophy
-         </strong>
-         <br/>
-        </a>
-        <a class="custom-nav-item custom-nav-item-dropdown" href="/neuromuscular-conditions/fa" style="font-family: 'Nunito Sans', sans-serif;">
-         <strong>
-          Friedreich's Ataxia
-         </strong>
-         <br/>
-        </a>
-       </div>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link custom-nav-item" href="/contact-us" style="font-family: 'Nunito Sans', sans-serif;">
-        Contact Us
-       </a>
-      </li>
-     </ul>
-    </div>
-   </div>
-  </nav>
-  <section class="d-xl-flex shape-slider-container">
-   <div class="text-nowrap d-xl-flex flex-row justify-content-xl-start align-items-xl-center slider-container" id="slider-container" style="overflow: hidden;">
-   </div>
-   <div class="shape-container">
-    <svg class="shape" preserveaspectratio="none" style="bottom: 0" viewbox="0 0 283.5 27.8" xmlns="http://www.w3.org/2000/svg">
-     <path class="elementor-shape-fill" d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7	c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3	c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6	c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1	c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8	c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1	z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1	c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z">
-     </path>
-     <path class="elementor-shape-fill" d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z">
-     </path>
-     <path class="elementor-shape-fill" d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z">
-     </path>
-     <path class="elementor-shape-fill" d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z">
-     </path>
-     <path class="elementor-shape-fill" d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z">
-     </path>
-     <path class="elementor-shape-fill" d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z">
-     </path>
-     <path class="elementor-shape-fill" d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z">
-     </path>
-     <path class="elementor-shape-fill" d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z">
-     </path>
-     <path class="elementor-shape-fill" d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z">
-     </path>
-    </svg>
-   </div>
-  </section>
-  <section class="d-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-xl-center align-items-xl-center" style="padding-top: 3%;padding-bottom: 4%;">
-   <p class="text-center subtitle" style="margin-bottom: 20px;">
-    Welcome To
-   </p>
-   <h1 class="text-center title" style="margin-bottom: 20px;">
-    Nurturing Neurons
-   </h1>
-   <p class="text-center text" style="padding-right: 14em;padding-left: 14em;margin-bottom: 20px;padding-bottom: 14px;">
-    The mission of Nurturing Neurons is to support the neuromuscular program at Seattle Children's Hospital and raise community awareness about pediatric neuromuscular disorders.
-    <br/>
-   </p>
-   <div class="container">
-    <div class="row">
-     <div class="col-md-3 d-flex d-xl-flex flex-column align-items-center align-items-xl-center" style="padding: 32px;">
-      <img style="max-width: 45%;" th:src="@{../assets/img/medication.jpg}"/>
-      <h3 class="heading" style="margin-top: 8px;margin-bottom: 16px;text-align: center;">
-       Funding Medical Care
-      </h3>
-      <p class="text" style="text-align: center;">
-       Neuromuscular conditions are often chronic and progressive requiring extensive patient care.
-       <br/>
-      </p>
-     </div>
-     <div class="col-md-3 d-flex d-xl-flex flex-column align-items-center align-items-xl-center" style="padding: 32px;">
-      <img style="max-width: 45%;" th:src="@{../assets/img/plant.jpg}"/>
-      <h3 class="heading" style="margin-top: 8px;margin-bottom: 16px;text-align: center;">
-       Education &amp; Awareness
-      </h3>
-      <p class="text" style="text-align: center;">
-       We strive to increase awareness about pediatric neuromuscular conditions.
-       <br/>
-      </p>
-     </div>
-     <div class="col-md-3 d-flex d-xl-flex flex-column align-items-center align-items-xl-center" style="padding: 32px;">
-      <img style="max-width: 45%;" th:src="@{../assets/img/food.jpg}"/>
-      <h3 class="heading" style="margin-top: 8px;margin-bottom: 16px;text-align: center;">
-       Patient Support
-      </h3>
-      <p class="text" style="text-align: center;">
-       Given the extensive impact of neuromuscular conditions, patient benefit from support groups and wellness programs.
-       <br/>
-      </p>
-     </div>
-     <div class="col-md-3 d-flex d-xl-flex flex-column align-items-center align-items-xl-center" style="padding: 32px;">
-      <img style="max-width: 45%;" th:src="@{../assets/img/medication.jpg}"/>
-      <h3 class="heading" style="margin-top: 8px;margin-bottom: 16px;text-align: center;">
-       Research
-      </h3>
-      <p class="text" style="text-align: center;">
-       Supporting research allows us to unravel the mysteries behind these rare conditions.
-       <br/>
-      </p>
-     </div>
-    </div>
-   </div>
-   <a class="btn text-nowrap button" href="https://give.seattlechildrens.org/nurturingneurons" role="button" style="margin-top: 7%;" target="_blank">
-    Donate Now
-    <i class="fas fa-brain" style="padding-left: 20px;">
-    </i>
-   </a>
-  </section>
-  <section style="background: radial-gradient(var(--lightBlue), var(--lightPink));padding-top: 6em;padding-right: 4.5em;padding-bottom: 7em;padding-left: 4.5em;">
-   <div class="container">
-    <div class="row">
-     <div class="col-md-6">
-      <div class="row d-xl-flex">
-       <div class="col d-flex d-sm-flex d-xl-flex flex-column align-items-center align-items-sm-center justify-content-xl-start align-items-xl-center" style="padding: 32px;">
-        <span class="line" style="margin-bottom: 39px;">
-        </span>
-        <h3 class="text-center heading" style="margin-top: 8px;margin-bottom: 16px;">
-         <strong>
-          Charcot-Marie-Tooth Disease
-         </strong>
-         <br/>
-        </h3>
-        <p class="text-center text" style="margin-bottom: 20px;">
-         Is a group of genetic conditions that affect peripheral nerves.
-         <br/>
-        </p>
-        <a class="btn text-nowrap button" href="neuromuscular-conditions/cmt" role="button" style="margin-left: -15px;margin-right: -15px;margin-bottom: 20px;">
-         Learn More
-         <i class="fas fa-brain" style="padding-left: 20px;">
-         </i>
-        </a>
-        <span class="line" style="margin-bottom: 39px;">
-        </span>
-        <h3 class="text-center heading" style="margin-top: 8px;margin-bottom: 16px;">
-         Duchenne Muscular Dystrophy
-         <br/>
-        </h3>
-        <p class="text-center text" style="margin-bottom: 20px;">
-         Is a genetic condition that weakens muscles over times.
-         <br/>
-        </p>
-        <a class="btn text-nowrap button" href="neuromuscular-conditions/dmd" role="button" style="margin-left: -15px;margin-right: -15px;margin-bottom: 20px;">
-         Learn More
-         <i class="fas fa-brain" style="padding-left: 20px;">
-         </i>
-        </a>
-        <span class="line">
-        </span>
-       </div>
-       <div class="col d-flex d-xl-flex flex-column align-items-center justify-content-xl-start align-items-xl-center" style="padding: 32px;">
-        <span class="line" style="margin-bottom: 39px;">
-        </span>
-        <h3 class="text-center heading" style="margin-top: 8px;margin-bottom: 16px;">
-         <strong>
-          Friedreich's Ataxia
-         </strong>
-         <br/>
-        </h3>
-        <p class="text-center text" style="margin-bottom: 20px;">
-         Is a genetic disease that damages the spinal cord, the nerves and the brain.
-         <br/>
-        </p>
-        <a class="btn text-nowrap button" href="neuromuscular-conditions/fa" role="button" style="margin-left: -15px;margin-right: -15px;margin-bottom: 20px;">
-         Learn More
-         <i class="fas fa-brain" style="padding-left: 20px;">
-         </i>
-        </a>
-        <span class="line" style="margin-bottom: 39px;">
-        </span>
-       </div>
-      </div>
-     </div>
-     <div class="col-md-6" style="padding: 32px;">
-      <p class="subtitle">
-       The Impact Of
-      </p>
-      <h1 class="text-break title">
-       <strong>
-        Neuromuscular Conditions
-       </strong>
-       <br/>
-      </h1>
-      <p class="text">
-       Pediatric neuromuscular disorders encompass multiple devastating diseases which affect the nervous system to cause muscle weakness and pain. Although these conditions may individually be rare, as a group, the spectrum of pediatric neuromuscular conditions comprise a significant disease burden. These life-altering disorders are often chronic and progressive; hence, many patients require expensive, long-term support. While research on genetic therapies and new medications is ongoing, there is currently no cure for neuromuscular disorders.
-       <br/>
-      </p>
-     </div>
-    </div>
-   </div>
-  </section>
-  <section class="d-flex d-xl-flex flex-column align-items-center align-items-xl-center" style="padding: 3em;">
-   <p class="subtitle" style="margin-bottom: 20px;">
-    Latest News
-   </p>
-   <h1 class="text-center title" style="margin-bottom: 20px;">
-    Our Events
-   </h1>
-   <div class="container">
-    <div class="row justify-content-center">
-     <div class="col-md-6 d-flex d-xl-flex flex-column grow-animation-2" style='background: linear-gradient(180deg, var(--transparent) 0%, rgba(0,0,0,0.8) 80%), url("assets/img/neuroart-final-poster.png") center / cover no-repeat;margin: 15px;height: 400px;width: 300px;padding: 0px;'>
-      <a class="d-flex d-xl-flex flex-column justify-content-end align-items-center justify-content-xl-end align-items-xl-center" href="events/neuroart" style="text-decoration: none;height: 100%;padding: 35px;width: 100%;">
-       <span class="subtitle-2" style="margin-bottom: 15px;">
-        March 14th, 2022
-       </span>
-       <h3 class="text-nowrap heading-2">
-        NeuroART
-       </h3>
-      </a>
-     </div>
-     <div class="col-md-6 d-flex d-xl-flex flex-column grow-animation-2" style='background: linear-gradient(180deg, var(--transparent) 0%, rgba(0,0,0,0.8) 80%), url("assets/img/auction-or-judge-gavel-on-a-laptop-PE4QK6L.jpg") center / cover no-repeat;margin: 15px;height: 400px;width: 300px;padding: 0px;'>
-      <a class="d-flex d-xl-flex flex-column justify-content-end align-items-center justify-content-xl-end align-items-xl-center" href="events/silent-auction" style="text-decoration: none;height: 100%;padding: 35px;width: 100%;">
-       <span class="subtitle-2" style="margin-bottom: 15px;">
-        Summer 2022
-       </span>
-       <h3 class="text-nowrap heading-2">
-        Silent Auction
-       </h3>
-      </a>
-     </div>
-     <div class="col-md-6 d-flex d-xl-flex flex-column grow-animation-2" style='background: linear-gradient(180deg, var(--transparent) 0%, rgba(0,0,0,0.8) 80%), url("assets/img/headset-on-black-background-call-center-home-offic-ZEWGFCE.jpg") center / cover no-repeat;margin: 15px;height: 400px;width: 300px;padding: 0px;'>
-      <a class="d-flex d-xl-flex flex-column justify-content-end align-items-center justify-content-xl-end align-items-xl-center" href="events/webinars" style="text-decoration: none;height: 100%;padding: 35px;width: 100%;">
-       <span class="subtitle-2" style="margin-bottom: 15px;">
-        Coming Soon
-       </span>
-       <h3 class="text-nowrap heading-2">
-        Webinars
-       </h3>
-      </a>
-     </div>
-    </div>
-   </div>
-  </section>
-  <footer>
-   <section style="margin-top: 2em;margin-right: 4.5em;margin-bottom: 2em;margin-left: 4.5em;">
-    <div class="container">
-     <div class="row">
-      <div class="col-md-6 d-flex align-items-center" style="padding: 15px;">
-       <p class="text">
-        Nurturing Neurons is an approved
-        <strong>
-         <span style="text-decoration: underline;">
-          501(c)3 nonprofit organization
-         </span>
-        </strong>
-        .
-        <br/>
-       </p>
-      </div>
-      <div class="col-md-6" style="padding: 15px;">
-       <p class="text">
-        This website was designed and created by Anshul Noori and Anushka Noori
-        <br/>
-       </p>
-      </div>
-     </div>
-    </div>
-   </section>
-   <section class="d-xl-flex justify-content-xl-center" style="margin-bottom: 2em;margin-right: 4.5em;margin-left: 4.5em;">
-    <p class="text" style="text-align: center;font-size: 0.7em;font-weight: 400;">
-     The information provided on this website, including any health-related material is provided for educational purposes only and is not intended to replace the advice of a physician or other qualified professional and does not constitute medical advice. Advice on the treatment or care of a patient should be obtained through consultation with a physician.
-     <br/>
-    </p>
-   </section>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
-  </script>
-  <script src="https://unpkg.com/react@17/umd/react.production.min.js">
-  </script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js">
-  </script>
-  <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
-  </script>
-  <script th:src="@{../assets/js/slider.js}" type="text/babel">
-  </script>
- </body>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Nurturing Neurons</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/Website-Styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md sticky-top d-flex d-xl-flex flex-row" style="background: var(--white);box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
+        <div class="container-fluid"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav d-xl-flex flex-row flex-fill justify-content-evenly mx-auto" style="max-width: 850px;">
+                    <li class="nav-item"><a class="nav-link active custom-nav-item" href="/" style="font-family: 'Nunito Sans', sans-serif;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link custom-nav-item" href="/about-us" style="font-family: 'Nunito Sans', sans-serif;">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link custom-nav-item" href="/events" style="font-family: 'Nunito Sans', sans-serif;">Events<i class="fas fa-angle-down custom-nav-icon" style="margin-left: 7px;"></i></a>
+                        <div class="d-xl-flex custom-nav-dropdown"><a class="custom-nav-item custom-nav-item-dropdown" href="/events/neuroart" style="font-family: 'Nunito Sans', sans-serif;">Neuro Art</a><a class="custom-nav-item custom-nav-item-dropdown" href="/events/silent-auction" style="font-family: 'Nunito Sans', sans-serif;">Silent Auction</a><a class="custom-nav-item custom-nav-item-dropdown" href="/events/webinars" style="font-family: 'Nunito Sans', sans-serif;">Webinars</a></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link custom-nav-item" style="font-family: 'Nunito Sans', sans-serif;">Neuromuscular Conditions<i class="fas fa-angle-down custom-nav-icon" style="margin-left: 7px;"></i></a>
+                        <div class="d-xl-flex custom-nav-dropdown"><a class="custom-nav-item custom-nav-item-dropdown" href="/neuromuscular-conditions/cmt" style="font-family: 'Nunito Sans', sans-serif;"><strong>Charcot-Marie-Tooth Disease</strong><br></a><a class="custom-nav-item custom-nav-item-dropdown" href="/neuromuscular-conditions/dmd" style="font-family: 'Nunito Sans', sans-serif;"><strong>Duchenne Muscular Dystrophy</strong><br></a><a class="custom-nav-item custom-nav-item-dropdown" href="/neuromuscular-conditions/fa" style="font-family: 'Nunito Sans', sans-serif;"><strong>Friedreich's Ataxia</strong><br></a></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link custom-nav-item" href="/contact-us" style="font-family: 'Nunito Sans', sans-serif;">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="d-xl-flex shape-slider-container">
+        <div class="text-nowrap d-xl-flex flex-row justify-content-xl-start align-items-xl-center slider-container" id="slider-container" style="overflow: hidden;"></div>
+        <div class="shape-container"><svg class="shape" style="bottom: 0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7	c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3	c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6	c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1	c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8	c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1	z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1	c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z"></path>
+	<path class="elementor-shape-fill" d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z"></path>
+	<path class="elementor-shape-fill" d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z"></path>
+	<path class="elementor-shape-fill" d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z"></path>
+	<path class="elementor-shape-fill" d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z"></path>
+	<path class="elementor-shape-fill" d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z"></path>
+	<path class="elementor-shape-fill" d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z"></path>
+	<path class="elementor-shape-fill" d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z"></path>
+	<path class="elementor-shape-fill" d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z"></path>
+</svg></div>
+    </section>
+    <section class="d-flex d-xl-flex flex-column justify-content-center align-items-center justify-content-xl-center align-items-xl-center" style="padding-top: 3%;padding-bottom: 4%;">
+        <p class="text-center subtitle" style="margin-bottom: 20px;">Welcome To</p>
+        <h1 class="text-center title" style="margin-bottom: 20px;">Nurturing Neurons</h1>
+        <p class="text-center text" style="padding-right: 14em;padding-left: 14em;margin-bottom: 20px;padding-bottom: 14px;">The mission of Nurturing Neurons is to support the neuromuscular program at Seattle Children's Hospital and raise community awareness about pediatric neuromuscular disorders.<br></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 d-flex d-xl-flex flex-column align-items-center align-items-xl-center" style="padding: 32px;"><img style="max-width: 45%;" src="assets/img/medication.jpg">
+                    <h3 class="heading" style="margin-top: 8px;margin-bottom: 16px;text-align: center;">Funding Medical Care</h3>
+                    <p class="text" style="text-align: center;">Neuromuscular conditions are often chronic and progressive requiring extensive patient care.<br></p>
+                </div>
+                <div class="col-md-3 d-flex d-xl-flex flex-column align-items-center align-items-xl-center" style="padding: 32px;"><img src="assets/img/plant.jpg" style="max-width: 45%;">
+                    <h3 class="heading" style="margin-top: 8px;margin-bottom: 16px;text-align: center;">Education &amp; Awareness</h3>
+                    <p class="text" style="text-align: center;">We strive to increase awareness about pediatric neuromuscular conditions.<br></p>
+                </div>
+                <div class="col-md-3 d-flex d-xl-flex flex-column align-items-center align-items-xl-center" style="padding: 32px;"><img src="assets/img/food.jpg" style="max-width: 45%;">
+                    <h3 class="heading" style="margin-top: 8px;margin-bottom: 16px;text-align: center;">Patient Support</h3>
+                    <p class="text" style="text-align: center;">Given the extensive impact of neuromuscular conditions, patient benefit from support groups and wellness programs.<br></p>
+                </div>
+                <div class="col-md-3 d-flex d-xl-flex flex-column align-items-center align-items-xl-center" style="padding: 32px;"><img src="assets/img/medication.jpg" style="max-width: 45%;">
+                    <h3 class="heading" style="margin-top: 8px;margin-bottom: 16px;text-align: center;">Research</h3>
+                    <p class="text" style="text-align: center;">Supporting research allows us to unravel the mysteries behind these rare conditions.<br></p>
+                </div>
+            </div>
+        </div><a class="btn text-nowrap button" role="button" style="margin-top: 7%;" href="https://give.seattlechildrens.org/nurturingneurons" target="_blank">Donate Now<i class="fas fa-brain" style="padding-left: 20px;"></i></a>
+    </section>
+    <section style="background: radial-gradient(var(--lightBlue), var(--lightPink));padding-top: 6em;padding-right: 4.5em;padding-bottom: 7em;padding-left: 4.5em;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row d-xl-flex">
+                        <div class="col d-flex d-sm-flex d-xl-flex flex-column align-items-center align-items-sm-center justify-content-xl-start align-items-xl-center" style="padding: 32px;"><span class="line" style="margin-bottom: 39px;"></span>
+                            <h3 class="text-center heading" style="margin-top: 8px;margin-bottom: 16px;"><strong>Charcot-Marie-Tooth Disease</strong><br></h3>
+                            <p class="text-center text" style="margin-bottom: 20px;">Is a group of genetic conditions that affect peripheral nerves.<br></p><a class="btn text-nowrap button" role="button" href="neuromuscular-conditions/cmt" style="margin-left: -15px;margin-right: -15px;margin-bottom: 20px;">Learn More<i class="fas fa-brain" style="padding-left: 20px;"></i></a><span class="line" style="margin-bottom: 39px;"></span>
+                            <h3 class="text-center heading" style="margin-top: 8px;margin-bottom: 16px;">Duchenne Muscular Dystrophy<br></h3>
+                            <p class="text-center text" style="margin-bottom: 20px;">Is a genetic condition that weakens muscles over times.<br></p><a class="btn text-nowrap button" role="button" href="neuromuscular-conditions/dmd" style="margin-left: -15px;margin-right: -15px;margin-bottom: 20px;">Learn More<i class="fas fa-brain" style="padding-left: 20px;"></i></a><span class="line"></span>
+                        </div>
+                        <div class="col d-flex d-xl-flex flex-column align-items-center justify-content-xl-start align-items-xl-center" style="padding: 32px;"><span class="line" style="margin-bottom: 39px;"></span>
+                            <h3 class="text-center heading" style="margin-top: 8px;margin-bottom: 16px;"><strong>Friedreich's Ataxia</strong><br></h3>
+                            <p class="text-center text" style="margin-bottom: 20px;">Is a genetic disease that damages the spinal cord, the nerves and the brain.<br></p><a class="btn text-nowrap button" role="button" href="neuromuscular-conditions/fa" style="margin-left: -15px;margin-right: -15px;margin-bottom: 20px;">Learn More<i class="fas fa-brain" style="padding-left: 20px;"></i></a><span class="line" style="margin-bottom: 39px;"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" style="padding: 32px;">
+                    <p class="subtitle">The Impact Of</p>
+                    <h1 class="text-break title"><strong>Neuromuscular Conditions</strong><br></h1>
+                    <p class="text">Pediatric neuromuscular disorders encompass multiple devastating diseases which affect the nervous system to cause muscle weakness and pain. Although these conditions may individually be rare, as a group, the spectrum of pediatric neuromuscular conditions comprise a significant disease burden. These life-altering disorders are often chronic and progressive; hence, many patients require expensive, long-term support. While research on genetic therapies and new medications is ongoing, there is currently no cure for neuromuscular disorders.<br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="d-flex d-xl-flex flex-column align-items-center align-items-xl-center" style="padding: 3em;">
+        <p class="subtitle" style="margin-bottom: 20px;">Latest News</p>
+        <h1 class="text-center title" style="margin-bottom: 20px;">Our Events</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 d-flex d-xl-flex flex-column grow-animation-2" style="background: linear-gradient(180deg, var(--transparent) 0%, rgba(0,0,0,0.8) 80%), url(&quot;assets/img/neuroart-final-poster.png&quot;) center / cover no-repeat;margin: 15px;height: 400px;width: 300px;padding: 0px;"><a class="d-flex d-xl-flex flex-column justify-content-end align-items-center justify-content-xl-end align-items-xl-center" href="events/neuroart" style="text-decoration: none;height: 100%;padding: 35px;width: 100%;"><span class="subtitle-2" style="margin-bottom: 15px;">March 14th, 2022</span>
+                        <h3 class="text-nowrap heading-2">NeuroART</h3>
+                    </a></div>
+                <div class="col-md-6 d-flex d-xl-flex flex-column grow-animation-2" style="background: linear-gradient(180deg, var(--transparent) 0%, rgba(0,0,0,0.8) 80%), url(&quot;assets/img/auction-or-judge-gavel-on-a-laptop-PE4QK6L.jpg&quot;) center / cover no-repeat;margin: 15px;height: 400px;width: 300px;padding: 0px;"><a class="d-flex d-xl-flex flex-column justify-content-end align-items-center justify-content-xl-end align-items-xl-center" href="events/silent-auction" style="text-decoration: none;height: 100%;padding: 35px;width: 100%;"><span class="subtitle-2" style="margin-bottom: 15px;">Summer 2022</span>
+                        <h3 class="text-nowrap heading-2">Silent Auction</h3>
+                    </a></div>
+                <div class="col-md-6 d-flex d-xl-flex flex-column grow-animation-2" style="background: linear-gradient(180deg, var(--transparent) 0%, rgba(0,0,0,0.8) 80%), url(&quot;assets/img/headset-on-black-background-call-center-home-offic-ZEWGFCE.jpg&quot;) center / cover no-repeat;margin: 15px;height: 400px;width: 300px;padding: 0px;"><a class="d-flex d-xl-flex flex-column justify-content-end align-items-center justify-content-xl-end align-items-xl-center" href="events/webinars" style="text-decoration: none;height: 100%;padding: 35px;width: 100%;"><span class="subtitle-2" style="margin-bottom: 15px;">Coming Soon</span>
+                        <h3 class="text-nowrap heading-2">Webinars</h3>
+                    </a></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section style="margin-top: 2em;margin-right: 4.5em;margin-bottom: 2em;margin-left: 4.5em;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center" style="padding: 15px;">
+                        <p class="text">Nurturing Neurons is an approved <strong><span style="text-decoration: underline;">501(c)3 nonprofit organization</span></strong>.<br></p>
+                    </div>
+                    <div class="col-md-6" style="padding: 15px;">
+                        <p class="text">This website was designed and created by Anshul Noori and Anushka Noori<br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="d-xl-flex justify-content-xl-center" style="margin-bottom: 2em;margin-right: 4.5em;margin-left: 4.5em;">
+            <p class="text" style="text-align: center;font-size: 0.7em;font-weight: 400;">The information provided on this website, including any health-related material is provided for educational purposes only and is not intended to replace the advice of a physician or other qualified professional and does not constitute medical advice. Advice on the treatment or care of a patient should be obtained through consultation with a physician.<br></p>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="assets/js/react-slider.js"></script>
+</body>
+
 </html>

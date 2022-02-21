@@ -1107,3 +1107,807 @@ Sun Feb 20 2022 22:51:55 GMT-0800 (Pacific Standard Time)
 TypeError: 'NoneType' object does not support item assignment
 
 
+----------
+
+Sun Feb 20 2022 22:51:58 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/css/Website-Styles.css.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/cmt-dropdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/countdown.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/counter.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/dmd-dropdown.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/fa-dropdown.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/neuroart-dropdown.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/slider.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/about-us.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/cmt.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/contact-us.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/dmd.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/error.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/error.log.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/events.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/fa.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/index.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/neuroart.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/silent-auction.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:51:59 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/webinars.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:52:01 GMT-0800 (Pacific Standard Time)
+
+To github.com:sunbeam9/nurturing-neurons-website.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:sunbeam9/nurturing-neurons-website.git'
+
+
+----------
+
+Sun Feb 20 2022 22:52:01 GMT-0800 (Pacific Standard Time)
+
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Python310\lib\re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "C:\Python310\lib\re.py", line 303, in _compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python310\lib\sre_compile.py", line 764, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+    p = sre_parse.parse(p, flags)
+  File "C:\Python310\lib\sre_parse.py", line 948, in parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 3
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Python310\lib\re.py", line 251, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+    return _compile(pattern, flags)
+  File "C:\Python310\lib\re.py", line 303, in _compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python310\lib\sre_compile.py", line 764, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+    p = sre_parse.parse(p, flags)
+  File "C:\Python310\lib\sre_parse.py", line 948, in parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
+
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 3
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Python310\lib\re.py", line 251, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+    return _compile(pattern, flags)
+  File "C:\Python310\lib\re.py", line 303, in _compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python310\lib\sre_compile.py", line 764, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+    p = sre_parse.parse(p, flags)
+  File "C:\Python310\lib\sre_parse.py", line 948, in parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 3
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Python310\lib\re.py", line 251, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+    return _compile(pattern, flags)
+  File "C:\Python310\lib\re.py", line 303, in _compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python310\lib\sre_compile.py", line 764, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+    p = sre_parse.parse(p, flags)
+  File "C:\Python310\lib\sre_parse.py", line 948, in parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
+
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 3
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Python310\lib\re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "C:\Python310\lib\re.py", line 303, in _compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python310\lib\sre_compile.py", line 764, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    p = sre_parse.parse(p, flags)
+  File "C:\Python310\lib\sre_parse.py", line 948, in parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 3
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 17, in <module>
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    html['xmlns'] = "http://www.w3.org/1999/xhtml"
+TypeError: 'NoneType' object does not support item assignment
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Python310\lib\re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "C:\Python310\lib\re.py", line 303, in _compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python310\lib\sre_compile.py", line 764, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    p = sre_parse.parse(p, flags)
+  File "C:\Python310\lib\sre_parse.py", line 948, in parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 3
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Python310\lib\re.py", line 251, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    return _compile(pattern, flags)
+  File "C:\Python310\lib\re.py", line 303, in _compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python310\lib\sre_compile.py", line 764, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    p = sre_parse.parse(p, flags)
+  File "C:\Python310\lib\sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
+
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 3
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
+    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Python310\lib\re.py", line 251, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    return _compile(pattern, flags)
+  File "C:\Python310\lib\re.py", line 303, in _compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python310\lib\sre_compile.py", line 764, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = sre_parse.parse(p, flags)
+  File "C:\Python310\lib\sre_parse.py", line 948, in parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 3
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Python310\lib\re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "C:\Python310\lib\re.py", line 303, in _compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python310\lib\sre_compile.py", line 764, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = sre_parse.parse(p, flags)
+  File "C:\Python310\lib\sre_parse.py", line 948, in parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 3
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Python310\lib\re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "C:\Python310\lib\re.py", line 303, in _compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python310\lib\sre_compile.py", line 764, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = sre_parse.parse(p, flags)
+  File "C:\Python310\lib\sre_parse.py", line 948, in parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 3
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Python310\lib\re.py", line 251, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    return _compile(pattern, flags)
+  File "C:\Python310\lib\re.py", line 303, in _compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python310\lib\sre_compile.py", line 764, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = sre_parse.parse(p, flags)
+  File "C:\Python310\lib\sre_parse.py", line 948, in parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 3
+
+

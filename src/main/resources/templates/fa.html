@@ -1,349 +1,141 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport"/>
-  <title>
-   Nurturing Neurons
-  </title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&amp;display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Nunito&amp;display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap" rel="stylesheet"/>
-  <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet"/>
-  <link rel="stylesheet" th:href="@{../assets/css/Website-Styles.css}"/>
- </head>
- <body>
-  <nav class="navbar navbar-light navbar-expand-md sticky-top d-flex d-xl-flex flex-row" style="background: var(--white);box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
-   <div class="container-fluid">
-    <button class="navbar-toggler" data-bs-target="#navcol-1" data-bs-toggle="collapse">
-     <span class="visually-hidden">
-      Toggle navigation
-     </span>
-     <span class="navbar-toggler-icon">
-     </span>
-    </button>
-    <div class="collapse navbar-collapse" id="navcol-1">
-     <ul class="navbar-nav d-xl-flex flex-row flex-fill justify-content-evenly mx-auto" style="max-width: 850px;">
-      <li class="nav-item">
-       <a class="nav-link custom-nav-item" href="/" style="font-family: 'Nunito Sans', sans-serif;">
-        Home
-       </a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link custom-nav-item" href="/about-us" style="font-family: 'Nunito Sans', sans-serif;">
-        About Us
-       </a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link custom-nav-item" href="/events" style="font-family: 'Nunito Sans', sans-serif;">
-        Events
-        <i class="fas fa-angle-down custom-nav-icon" style="margin-left: 7px;">
-        </i>
-       </a>
-       <div class="d-xl-flex custom-nav-dropdown">
-        <a class="custom-nav-item custom-nav-item-dropdown" href="/events/neuroart" style="font-family: 'Nunito Sans', sans-serif;">
-         Neuro Art
-        </a>
-        <a class="custom-nav-item custom-nav-item-dropdown" href="/events/silent-auction" style="font-family: 'Nunito Sans', sans-serif;">
-         Silent Auction
-        </a>
-        <a class="custom-nav-item custom-nav-item-dropdown" href="/events/webinars" style="font-family: 'Nunito Sans', sans-serif;">
-         Webinars
-        </a>
-       </div>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link active custom-nav-item" style="font-family: 'Nunito Sans', sans-serif;">
-        Neuromuscular Conditions
-        <i class="fas fa-angle-down custom-nav-icon" style="margin-left: 7px;">
-        </i>
-       </a>
-       <div class="d-xl-flex custom-nav-dropdown">
-        <a class="custom-nav-item custom-nav-item-dropdown" href="/neuromuscular-conditions/cmt" style="font-family: 'Nunito Sans', sans-serif;">
-         <strong>
-          Charcot-Marie-Tooth Disease
-         </strong>
-         <br/>
-        </a>
-        <a class="custom-nav-item custom-nav-item-dropdown" href="/neuromuscular-conditions/dmd" style="font-family: 'Nunito Sans', sans-serif;">
-         <strong>
-          Duchenne Muscular Dystrophy
-         </strong>
-         <br/>
-        </a>
-        <a class="custom-nav-item custom-nav-item-dropdown" href="/neuromuscular-conditions/fa" style="font-family: 'Nunito Sans', sans-serif;color: var(--darkBlue) !important;">
-         <strong>
-          Friedreich's Ataxia
-         </strong>
-         <br/>
-        </a>
-       </div>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link custom-nav-item" href="/contact-us" style="font-family: 'Nunito Sans', sans-serif;">
-        Contact Us
-       </a>
-      </li>
-     </ul>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Nurturing Neurons</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cedarville+Cursive&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/Website-Styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md sticky-top d-flex d-xl-flex flex-row" style="background: var(--white);box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
+        <div class="container-fluid"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav d-xl-flex flex-row flex-fill justify-content-evenly mx-auto" style="max-width: 850px;">
+                    <li class="nav-item"><a class="nav-link custom-nav-item" href="/" style="font-family: 'Nunito Sans', sans-serif;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link custom-nav-item" href="/about-us" style="font-family: 'Nunito Sans', sans-serif;">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link custom-nav-item" href="/events" style="font-family: 'Nunito Sans', sans-serif;">Events<i class="fas fa-angle-down custom-nav-icon" style="margin-left: 7px;"></i></a>
+                        <div class="d-xl-flex custom-nav-dropdown"><a class="custom-nav-item custom-nav-item-dropdown" href="/events/neuroart" style="font-family: 'Nunito Sans', sans-serif;">Neuro Art</a><a class="custom-nav-item custom-nav-item-dropdown" href="/events/silent-auction" style="font-family: 'Nunito Sans', sans-serif;">Silent Auction</a><a class="custom-nav-item custom-nav-item-dropdown" href="/events/webinars" style="font-family: 'Nunito Sans', sans-serif;">Webinars</a></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active custom-nav-item" style="font-family: 'Nunito Sans', sans-serif;">Neuromuscular Conditions<i class="fas fa-angle-down custom-nav-icon" style="margin-left: 7px;"></i></a>
+                        <div class="d-xl-flex custom-nav-dropdown"><a class="custom-nav-item custom-nav-item-dropdown" href="/neuromuscular-conditions/cmt" style="font-family: 'Nunito Sans', sans-serif;"><strong>Charcot-Marie-Tooth Disease</strong><br></a><a class="custom-nav-item custom-nav-item-dropdown" href="/neuromuscular-conditions/dmd" style="font-family: 'Nunito Sans', sans-serif;"><strong>Duchenne Muscular Dystrophy</strong><br></a><a class="custom-nav-item custom-nav-item-dropdown" href="/neuromuscular-conditions/fa" style="font-family: 'Nunito Sans', sans-serif;color: var(--darkBlue) !important;"><strong>Friedreich's Ataxia</strong><br></a></div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link custom-nav-item" href="/contact-us" style="font-family: 'Nunito Sans', sans-serif;">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="d-xl-flex">
+        <div class="row" style="width: 100vw;">
+            <div class="col" style="width: 20%;padding: 0px;background: url(&quot;assets/img/leg-8QGFPUE.jpg&quot;) center / cover no-repeat;background-attachment: fixed;"></div>
+            <div class="col" style="width: 80%;padding-top: 6em;padding-right: 4.5em;padding-left: 4.5em;padding-bottom: 7em;background: linear-gradient(var(--lightBlue) 25%, var(--lightPink));">
+                <p class="subtitle" style="margin-bottom: 20px;"><strong>Understanding</strong></p>
+                <h1 class="title" style="margin-bottom: 20px;padding: 0px;"><strong>Friedreich Ataxia</strong><br></h1>
+                <p class="text">Friedreich ataxia (FA) is a rare genetic condition that causes progressive damage to the nervous system leading to impaired muscle coordination (ataxia) that worsens over time. It is the most common form of hereditary ataxia in the United States, affecting about 1 in every 50,000 people. The disorder is named after Nikolaus Friedreich, a German doctor who described the condition in the 1860s.<br><br>Friedreich ataxia adversely affects both the central and peripheral nervous systems.&nbsp; This damage results in impaired sensory functions and uncoordinated movements. In addition, some patients may also develop problems with their heart and spine.&nbsp; The onset of diabetes is another noted complication. The disorder does not affect thinking and reasoning abilities (cognitive functions).<br><br>Symptom onset is predominantly between the ages of 5 to 15 years of age. Disease progression is varied and differs from patient to patient.&nbsp; However, within 10 to 20 years after the onset of first symptoms, most patients are confined to a wheelchair. As the disease progresses, patients become increasingly incapacitated and often have a reduced life expectancy.<br></p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center justify-content-xl-end" style="border-radius: 20px;padding: 15px;"><a class="d-flex flex-column justify-content-center align-items-center nmc-modal-link" style="text-decoration: none;padding: 10px;width: 175px;border-radius: 20px;border: 3px solid var(--darkBlue);" data-bs-target="#causes" data-bs-toggle="modal"><i class="fas fa-dna nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #80BF98;"></i>
+                                <h3 class="heading-2" style="color: var(--darkBlue);">Causes</h3>
+                            </a></div>
+                        <div class="col-md-6 d-flex justify-content-center align-items-center justify-content-xl-start" style="border-radius: 20px;padding: 15px;"><a class="d-flex flex-column justify-content-center align-items-center nmc-modal-link" style="text-decoration: none;padding: 10px;width: 175px;border-radius: 20px;border: 3px solid var(--darkBlue);" data-bs-target="#symptoms" data-bs-toggle="modal"><i class="fas fa-thermometer-half nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #FF9770;"></i>
+                                <h3 class="heading-2" style="color: var(--darkBlue);">Symptoms</h3>
+                            </a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-center align-items-center justify-content-xl-end" style="border-radius: 20px;padding: 15px;"><a class="d-flex flex-column justify-content-center align-items-center nmc-modal-link" style="text-decoration: none;padding: 10px;width: 175px;border-radius: 20px;border: 3px solid var(--darkBlue);" data-bs-target="#diagnosis" data-bs-toggle="modal"><i class="fas fa-dna nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #FF99C8;"></i>
+                                <h3 class="heading-2" style="color: var(--darkBlue);">Diagnosis</h3>
+                            </a></div>
+                        <div class="col-md-6 d-flex justify-content-center align-items-center justify-content-xl-start" style="border-radius: 20px;padding: 15px;"><a class="d-flex flex-column justify-content-center align-items-center nmc-modal-link" style="text-decoration: none;padding: 10px;width: 175px;border-radius: 20px;border: 3px solid var(--darkBlue);" data-bs-target="#treatment" data-bs-toggle="modal"><i class="fas fa-thermometer-half nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #B896CC;"></i>
+                                <h3 class="heading-2" style="color: var(--darkBlue);">Treatment</h3>
+                            </a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="d-xl-flex">
+        <div class="row" style="width: 100vw;">
+            <div class="col" style="width: 80%;padding-top: 6em;padding-right: 4.5em;padding-left: 4.5em;padding-bottom: 7em;background: linear-gradient(var(--lightBlue) 25%, var(--lightPink));">
+                <p class="subtitle" style="margin-bottom: 20px;">Resources​<br></p>
+                <h1 class="title" style="margin-bottom: 20px;padding: 0px;"><strong>Supporting Organizations</strong></h1>
+                <p class="text" style="margin-bottom: 20px;padding-bottom: 20px;">A diagnosis of Freidrich's ataxia affects every facet of a patient's life and while there are no treatments, supportive care is critical to helping the patient lead fuller lives. Connecting with advocacy groups can inform patients about experts in the field, support groups and ongoing research. Some organizations supporting patients diagnosed with muscular dystrophies are listed below.&nbsp;Inclusion on this list is not an endorsement by Nurturing Neurons Guild<br></p>
+                <div id="resources"></div>
+            </div>
+            <div class="col" style="width: 20%;padding: 0px;background: url(&quot;assets/img/leg-8QGFPUE.jpg&quot;) center / cover no-repeat;background-attachment: fixed;"></div>
+        </div>
+    </section>
+    <footer>
+        <section style="margin-top: 2em;margin-right: 4.5em;margin-bottom: 2em;margin-left: 4.5em;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center" style="padding: 15px;">
+                        <p class="text">Nurturing Neurons is an approved <strong><span style="text-decoration: underline;">501(c)3 nonprofit organization</span></strong>.<br></p>
+                    </div>
+                    <div class="col-md-6" style="padding: 15px;">
+                        <p class="text">This website was designed and created by Anshul Noori and Anushka Noori<br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="d-xl-flex justify-content-xl-center" style="margin-bottom: 2em;margin-right: 4.5em;margin-left: 4.5em;">
+            <p class="text" style="text-align: center;font-size: 0.7em;font-weight: 400;">The information provided on this website, including any health-related material is provided for educational purposes only and is not intended to replace the advice of a physician or other qualified professional and does not constitute medical advice. Advice on the treatment or care of a patient should be obtained through consultation with a physician.<br></p>
+        </section>
+    </footer>
+    <div class="modal fade" role="dialog" tabindex="-1" id="causes">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="border-style: none;"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body d-flex flex-column justify-content-center align-items-center" style="padding: 75px;padding-top: 27px;"><i class="fas fa-dna nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #80BF98;"></i>
+                    <h3 class="heading-2" style="color: var(--darkBlue);margin-bottom: 20px;">Causes</h3>
+                    <p class="text-center">Friedreich ataxia is a genetically inherited disease.<br></p>
+                </div>
+            </div>
+        </div>
     </div>
-   </div>
-  </nav>
-  <section class="d-xl-flex">
-   <div class="row" style="width: 100vw;">
-    <div class="col" style='width: 20%;padding: 0px;background: url("assets/img/leg-8QGFPUE.jpg") center / cover no-repeat;background-attachment: fixed;'>
+    <div class="modal fade" role="dialog" tabindex="-1" id="symptoms">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="border-style: none;"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body d-flex flex-column justify-content-center align-items-center" style="padding: 75px;padding-top: 27px;"><i class="fas fa-thermometer-half nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #FF9770;"></i>
+                    <h3 class="heading-2" style="color: var(--darkBlue);margin-bottom: 20px;">Symptoms</h3>
+                    <p class="text-center">Symptoms of Friedreich ataxia include but are not limited to:<br>Difficulty walking and poor balance Difficulty coordinating movement that can affect multiple muscles, including those involved with swallowing.<br>Slowness and slurring of speech Increased muscle tone Scoliosis (a curving of the spine) Loss of sensation, particularly of the extremities, but may include the torso.<br>Loss of normal reflexes. A range of heart problems including hypertrophic cardiomyopathy, myocardial fibrosis, tachycardia, and heart block.<br>Diabetes onset in about 30% of patients.<br>Hearing and vision loss in later stages of the disease.<br></p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col" style="width: 80%;padding-top: 6em;padding-right: 4.5em;padding-left: 4.5em;padding-bottom: 7em;background: linear-gradient(var(--lightBlue) 25%, var(--lightPink));">
-     <p class="subtitle" style="margin-bottom: 20px;">
-      <strong>
-       Understanding
-      </strong>
-     </p>
-     <h1 class="title" style="margin-bottom: 20px;padding: 0px;">
-      <strong>
-       Friedreich Ataxia
-      </strong>
-      <br/>
-     </h1>
-     <p class="text">
-      Friedreich ataxia (FA) is a rare genetic condition that causes progressive damage to the nervous system leading to impaired muscle coordination (ataxia) that worsens over time. It is the most common form of hereditary ataxia in the United States, affecting about 1 in every 50,000 people. The disorder is named after Nikolaus Friedreich, a German doctor who described the condition in the 1860s.
-      <br/>
-      <br/>
-      Friedreich ataxia adversely affects both the central and peripheral nervous systems.  This damage results in impaired sensory functions and uncoordinated movements. In addition, some patients may also develop problems with their heart and spine.  The onset of diabetes is another noted complication. The disorder does not affect thinking and reasoning abilities (cognitive functions).
-      <br/>
-      <br/>
-      Symptom onset is predominantly between the ages of 5 to 15 years of age. Disease progression is varied and differs from patient to patient.  However, within 10 to 20 years after the onset of first symptoms, most patients are confined to a wheelchair. As the disease progresses, patients become increasingly incapacitated and often have a reduced life expectancy.
-      <br/>
-     </p>
-     <div class="container">
-      <div class="row">
-       <div class="col-md-6 d-flex justify-content-center align-items-center justify-content-xl-end" style="border-radius: 20px;padding: 15px;">
-        <a class="d-flex flex-column justify-content-center align-items-center nmc-modal-link" data-bs-target="#causes" data-bs-toggle="modal" style="text-decoration: none;padding: 10px;width: 175px;border-radius: 20px;border: 3px solid var(--darkBlue);">
-         <i class="fas fa-dna nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #80BF98;">
-         </i>
-         <h3 class="heading-2" style="color: var(--darkBlue);">
-          Causes
-         </h3>
-        </a>
-       </div>
-       <div class="col-md-6 d-flex justify-content-center align-items-center justify-content-xl-start" style="border-radius: 20px;padding: 15px;">
-        <a class="d-flex flex-column justify-content-center align-items-center nmc-modal-link" data-bs-target="#symptoms" data-bs-toggle="modal" style="text-decoration: none;padding: 10px;width: 175px;border-radius: 20px;border: 3px solid var(--darkBlue);">
-         <i class="fas fa-thermometer-half nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #FF9770;">
-         </i>
-         <h3 class="heading-2" style="color: var(--darkBlue);">
-          Symptoms
-         </h3>
-        </a>
-       </div>
-      </div>
-      <div class="row">
-       <div class="col-md-6 d-flex justify-content-center align-items-center justify-content-xl-end" style="border-radius: 20px;padding: 15px;">
-        <a class="d-flex flex-column justify-content-center align-items-center nmc-modal-link" data-bs-target="#diagnosis" data-bs-toggle="modal" style="text-decoration: none;padding: 10px;width: 175px;border-radius: 20px;border: 3px solid var(--darkBlue);">
-         <i class="fas fa-dna nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #FF99C8;">
-         </i>
-         <h3 class="heading-2" style="color: var(--darkBlue);">
-          Diagnosis
-         </h3>
-        </a>
-       </div>
-       <div class="col-md-6 d-flex justify-content-center align-items-center justify-content-xl-start" style="border-radius: 20px;padding: 15px;">
-        <a class="d-flex flex-column justify-content-center align-items-center nmc-modal-link" data-bs-target="#treatment" data-bs-toggle="modal" style="text-decoration: none;padding: 10px;width: 175px;border-radius: 20px;border: 3px solid var(--darkBlue);">
-         <i class="fas fa-thermometer-half nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #B896CC;">
-         </i>
-         <h3 class="heading-2" style="color: var(--darkBlue);">
-          Treatment
-         </h3>
-        </a>
-       </div>
-      </div>
-     </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="diagnosis">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="border-style: none;"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body d-flex flex-column justify-content-center align-items-center" style="padding: 75px;padding-top: 27px;"><i class="fas fa-diagnoses nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #FF99C8;"></i>
+                    <h3 class="heading-2" style="color: var(--darkBlue);margin-bottom: 20px;">Diagnosis</h3>
+                    <p class="text-center">A diagnosis of Friedreich ataxia requires a careful clinical examination, which includes a medical history and a thorough physical exam, in particular looking for balance difficulty, loss of joint sensation (proprioception), absence of reflexes, and signs of neurological problems. Genetic testing now provides a conclusive diagnosis. Other tests that may aid in the diagnosis or management of the disorder include:<br>Complete and careful neurological exam Electromyogram (EMG), which measures the electrical activity of muscle cells.<br>Nerve conduction studies, which measure the speed with which nerves transmit impulses.<br>Electrocardiogram (EKG or ECG), to assess the functioning of the heart.<br>Blood tests to check for elevated glucose levels and vitamin E levels, and Magnetic resonance imaging (MRI) or computed tomography (CT) scans, tests which provide brain and spinal cord images that are useful for ruling out other neurological conditions.<br>Genetic testing is now possible. Friedreich ataxia is caused by a mutation in the FXN gene.<br></p>
+                </div>
+            </div>
+        </div>
     </div>
-   </div>
-  </section>
-  <section class="d-xl-flex">
-   <div class="row" style="width: 100vw;">
-    <div class="col" style="width: 80%;padding-top: 6em;padding-right: 4.5em;padding-left: 4.5em;padding-bottom: 7em;background: linear-gradient(var(--lightBlue) 25%, var(--lightPink));">
-     <p class="subtitle" style="margin-bottom: 20px;">
-      Resourcesâ€‹
-      <br/>
-     </p>
-     <h1 class="title" style="margin-bottom: 20px;padding: 0px;">
-      <strong>
-       Supporting Organizations
-      </strong>
-     </h1>
-     <p class="text" style="margin-bottom: 20px;padding-bottom: 20px;">
-      A diagnosis of Freidrich's ataxia affects every facet of a patient's life and while there are no treatments, supportive care is critical to helping the patient lead fuller lives. Connecting with advocacy groups can inform patients about experts in the field, support groups and ongoing research. Some organizations supporting patients diagnosed with muscular dystrophies are listed below. Inclusion on this list is not an endorsement by Nurturing Neurons Guild
-      <br/>
-     </p>
-     <div id="resources">
-     </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="treatment">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="border-style: none;"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body d-flex flex-column justify-content-center align-items-center" style="padding: 75px;padding-top: 27px;"><i class="fas fa-prescription-bottle-alt nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #B896CC;"></i>
+                    <h3 class="heading-2" style="color: var(--darkBlue);margin-bottom: 20px;">Treatment</h3>
+                    <p class="text-center">There is currently no cure or effective treatment for Friedreich ataxia. As Friedreich's ataxia ultimately affects multiple organ systems in addition to the nerves and muscles, the goal of treatment is supportive therapy by a&nbsp;multi-disciplinary team. Support therapy includes:<br>Physical therapy to assist with gait and movement issues.<br>Braces and surgery to address problems such as orthopedic issues and scoliosis.<br>Speech and swallowing therapy.<br>Management of cardiac problems as necessarily.<br>Management of diabetes as necessary.<br>Hearing aids as needed.<br>Social and emotional support.<br>Genetic counseling.<br></p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col" style='width: 20%;padding: 0px;background: url("assets/img/leg-8QGFPUE.jpg") center / cover no-repeat;background-attachment: fixed;'>
-    </div>
-   </div>
-  </section>
-  <footer>
-   <section style="margin-top: 2em;margin-right: 4.5em;margin-bottom: 2em;margin-left: 4.5em;">
-    <div class="container">
-     <div class="row">
-      <div class="col-md-6 d-flex align-items-center" style="padding: 15px;">
-       <p class="text">
-        Nurturing Neurons is an approved
-        <strong>
-         <span style="text-decoration: underline;">
-          501(c)3 nonprofit organization
-         </span>
-        </strong>
-        .
-        <br/>
-       </p>
-      </div>
-      <div class="col-md-6" style="padding: 15px;">
-       <p class="text">
-        This website was designed and created by Anshul Noori and Anushka Noori
-        <br/>
-       </p>
-      </div>
-     </div>
-    </div>
-   </section>
-   <section class="d-xl-flex justify-content-xl-center" style="margin-bottom: 2em;margin-right: 4.5em;margin-left: 4.5em;">
-    <p class="text" style="text-align: center;font-size: 0.7em;font-weight: 400;">
-     The information provided on this website, including any health-related material is provided for educational purposes only and is not intended to replace the advice of a physician or other qualified professional and does not constitute medical advice. Advice on the treatment or care of a patient should be obtained through consultation with a physician.
-     <br/>
-    </p>
-   </section>
-  </footer>
-  <div class="modal fade" id="causes" role="dialog" tabindex="-1">
-   <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-     <div class="modal-header" style="border-style: none;">
-      <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
-      </button>
-     </div>
-     <div class="modal-body d-flex flex-column justify-content-center align-items-center" style="padding: 75px;padding-top: 27px;">
-      <i class="fas fa-dna nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #80BF98;">
-      </i>
-      <h3 class="heading-2" style="color: var(--darkBlue);margin-bottom: 20px;">
-       Causes
-      </h3>
-      <p class="text-center">
-       Friedreich ataxia is a genetically inherited disease.
-       <br/>
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
-  <div class="modal fade" id="symptoms" role="dialog" tabindex="-1">
-   <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-     <div class="modal-header" style="border-style: none;">
-      <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
-      </button>
-     </div>
-     <div class="modal-body d-flex flex-column justify-content-center align-items-center" style="padding: 75px;padding-top: 27px;">
-      <i class="fas fa-thermometer-half nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #FF9770;">
-      </i>
-      <h3 class="heading-2" style="color: var(--darkBlue);margin-bottom: 20px;">
-       Symptoms
-      </h3>
-      <p class="text-center">
-       Symptoms of Friedreich ataxia include but are not limited to:
-       <br/>
-       Difficulty walking and poor balance Difficulty coordinating movement that can affect multiple muscles, including those involved with swallowing.
-       <br/>
-       Slowness and slurring of speech Increased muscle tone Scoliosis (a curving of the spine) Loss of sensation, particularly of the extremities, but may include the torso.
-       <br/>
-       Loss of normal reflexes. A range of heart problems including hypertrophic cardiomyopathy, myocardial fibrosis, tachycardia, and heart block.
-       <br/>
-       Diabetes onset in about 30% of patients.
-       <br/>
-       Hearing and vision loss in later stages of the disease.
-       <br/>
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
-  <div class="modal fade" id="diagnosis" role="dialog" tabindex="-1">
-   <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-     <div class="modal-header" style="border-style: none;">
-      <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
-      </button>
-     </div>
-     <div class="modal-body d-flex flex-column justify-content-center align-items-center" style="padding: 75px;padding-top: 27px;">
-      <i class="fas fa-diagnoses nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #FF99C8;">
-      </i>
-      <h3 class="heading-2" style="color: var(--darkBlue);margin-bottom: 20px;">
-       Diagnosis
-      </h3>
-      <p class="text-center">
-       A diagnosis of Friedreich ataxia requires a careful clinical examination, which includes a medical history and a thorough physical exam, in particular looking for balance difficulty, loss of joint sensation (proprioception), absence of reflexes, and signs of neurological problems. Genetic testing now provides a conclusive diagnosis. Other tests that may aid in the diagnosis or management of the disorder include:
-       <br/>
-       Complete and careful neurological exam Electromyogram (EMG), which measures the electrical activity of muscle cells.
-       <br/>
-       Nerve conduction studies, which measure the speed with which nerves transmit impulses.
-       <br/>
-       Electrocardiogram (EKG or ECG), to assess the functioning of the heart.
-       <br/>
-       Blood tests to check for elevated glucose levels and vitamin E levels, and Magnetic resonance imaging (MRI) or computed tomography (CT) scans, tests which provide brain and spinal cord images that are useful for ruling out other neurological conditions.
-       <br/>
-       Genetic testing is now possible. Friedreich ataxia is caused by a mutation in the FXN gene.
-       <br/>
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
-  <div class="modal fade" id="treatment" role="dialog" tabindex="-1">
-   <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-     <div class="modal-header" style="border-style: none;">
-      <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
-      </button>
-     </div>
-     <div class="modal-body d-flex flex-column justify-content-center align-items-center" style="padding: 75px;padding-top: 27px;">
-      <i class="fas fa-prescription-bottle-alt nmc-modal-icon" style="font-size: 40px;margin-bottom: 20px;color: #B896CC;">
-      </i>
-      <h3 class="heading-2" style="color: var(--darkBlue);margin-bottom: 20px;">
-       Treatment
-      </h3>
-      <p class="text-center">
-       There is currently no cure or effective treatment for Friedreich ataxia. As Friedreich's ataxia ultimately affects multiple organ systems in addition to the nerves and muscles, the goal of treatment is supportive therapy by a multi-disciplinary team. Support therapy includes:
-       <br/>
-       Physical therapy to assist with gait and movement issues.
-       <br/>
-       Braces and surgery to address problems such as orthopedic issues and scoliosis.
-       <br/>
-       Speech and swallowing therapy.
-       <br/>
-       Management of cardiac problems as necessarily.
-       <br/>
-       Management of diabetes as necessary.
-       <br/>
-       Hearing aids as needed.
-       <br/>
-       Social and emotional support.
-       <br/>
-       Genetic counseling.
-       <br/>
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
-  </script>
-  <script src="https://unpkg.com/react@17/umd/react.production.min.js">
-  </script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js">
-  </script>
-  <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
-  </script>
-  <script th:src="@{../assets/js/fa-dropdown.js}" type="text/babel">
-  </script>
- </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="assets/js/react-fa-dropdown.js"></script>
+</body>
+
 </html>
