@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
  <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport"/>
@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito&amp;display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap" rel="stylesheet"/>
   <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet"/>
-  <link href="assets/css/Website-Styles.css" rel="stylesheet"/>
+  <link rel="stylesheet" th:href="@{../assets/css/Website-Styles.css}"/>
  </head>
  <body>
   <nav class="navbar navbar-light navbar-expand-md sticky-top d-flex d-xl-flex flex-row" style="background: var(--white);box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
@@ -301,7 +301,7 @@
   </script>
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
   </script>
-  <script src="assets/js/react-dmd-dropdown.js">
+  <script th:src="@{../assets/js/react-dmd-dropdown.js}" type="text/babel">
   </script>
  </body>
 </html>
