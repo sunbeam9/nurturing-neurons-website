@@ -911,3 +911,199 @@ Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
 ModuleNotFoundError: No module named 'bs4'
 
 
+----------
+
+Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/css/Website-Styles.css.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/cmt-dropdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/countdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/counter.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/dmd-dropdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/fa-dropdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/neuroart-dropdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/slider.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/about-us.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/cmt.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/contact-us.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/dmd.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/error.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/error.log.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/events.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/fa.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/index.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/neuroart.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/silent-auction.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:02 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/webinars.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 22:41:06 GMT-0800 (Pacific Standard Time)
+
+To github.com:sunbeam9/nurturing-neurons-website.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:sunbeam9/nurturing-neurons-website.git'
+
+
+----------
+
+Sun Feb 20 2022 22:41:06 GMT-0800 (Pacific Standard Time)
+
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+----------
+
+Sun Feb 20 2022 22:51:55 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
+
+
+----------
+
+Sun Feb 20 2022 22:51:55 GMT-0800 (Pacific Standard Time)
+
+    html['xmlns'] = "http://www.w3.org/1999/xhtml"
+TypeError: 'NoneType' object does not support item assignment
+
+
