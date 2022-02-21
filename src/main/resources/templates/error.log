@@ -10,10 +10,9 @@ Could Not Find C:\Users\sunbe\OneDrive\Documents\Nurturing Neurons\New Website\W
 Mon Jan 10 2022 15:18:21 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in
+<module>
+ ----------
 
 Mon Jan 10 2022 15:18:21 GMT-0800 (Pacific Standard Time)
 
@@ -26,10 +25,9 @@ TypeError: 'NoneType' object does not support item assignment
 Mon Jan 10 2022 15:22:03 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in
+ <module>
+  ----------
 
 Mon Jan 10 2022 15:22:03 GMT-0800 (Pacific Standard Time)
 
@@ -42,10 +40,9 @@ TypeError: 'NoneType' object does not support item assignment
 Mon Jan 10 2022 15:23:50 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in
+  <module>
+   ----------
 
 Mon Jan 10 2022 15:23:50 GMT-0800 (Pacific Standard Time)
 
@@ -58,10 +55,9 @@ TypeError: 'NoneType' object does not support item assignment
 Mon Jan 10 2022 15:36:05 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in
+   <module>
+    ----------
 
 Mon Jan 10 2022 15:36:05 GMT-0800 (Pacific Standard Time)
 
@@ -74,10 +70,9 @@ TypeError: 'NoneType' object does not support item assignment
 Mon Jan 10 2022 15:52:03 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in
+    <module>
+     ----------
 
 Mon Jan 10 2022 15:52:03 GMT-0800 (Pacific Standard Time)
 
@@ -90,10 +85,9 @@ TypeError: 'NoneType' object does not support item assignment
 Mon Jan 10 2022 19:26:16 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in
+     <module>
+      ----------
 
 Mon Jan 10 2022 19:26:16 GMT-0800 (Pacific Standard Time)
 
@@ -289,7 +283,7 @@ Warning: Permanently added the RSA host key for IP address '140.82.114.3' to the
 Mon Jan 10 2022 19:26:24 GMT-0800 (Pacific Standard Time)
 
 To github.com:sunbeam9/nurturing-neurons-website.git
- ! [rejected]        main -> main (fetch first)
+ ! [rejected]        main -&gt; main (fetch first)
 error: failed to push some refs to 'github.com:sunbeam9/nurturing-neurons-website.git'
 
 
@@ -309,10 +303,9 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Mon Jan 10 2022 21:14:16 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in
+      <module>
+       ----------
 
 Mon Jan 10 2022 21:14:16 GMT-0800 (Pacific Standard Time)
 
@@ -500,7 +493,7 @@ Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the
 Mon Jan 10 2022 21:14:21 GMT-0800 (Pacific Standard Time)
 
 To github.com:sunbeam9/nurturing-neurons-website.git
- ! [rejected]        main -> main (fetch first)
+ ! [rejected]        main -&gt; main (fetch first)
 error: failed to push some refs to 'github.com:sunbeam9/nurturing-neurons-website.git'
 
 
@@ -520,10 +513,9 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Mon Jan 10 2022 21:33:07 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in
+       <module>
+        ----------
 
 Mon Jan 10 2022 21:33:07 GMT-0800 (Pacific Standard Time)
 
@@ -704,7 +696,7 @@ The file will have its original line endings in your working directory
 Mon Jan 10 2022 21:33:12 GMT-0800 (Pacific Standard Time)
 
 To github.com:sunbeam9/nurturing-neurons-website.git
- ! [rejected]        main -> main (fetch first)
+ ! [rejected]        main -&gt; main (fetch first)
 error: failed to push some refs to 'github.com:sunbeam9/nurturing-neurons-website.git'
 
 
@@ -724,26 +716,9 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in <module>
-
-
-----------
-
-Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
-
-    from bs4 import BeautifulSoup
-ModuleNotFoundError: No module named 'bs4'
-
-
-----------
-
-Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
-
-Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in
+        <module>
+         ----------
 
 Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
 
@@ -756,26 +731,9 @@ ModuleNotFoundError: No module named 'bs4'
 Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in <module>
-
-
-----------
-
-Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
-
-    from bs4 import BeautifulSoup
-ModuleNotFoundError: No module named 'bs4'
-
-
-----------
-
-Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
-
-Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in
+         <module>
+          ----------
 
 Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
 
@@ -788,10 +746,24 @@ ModuleNotFoundError: No module named 'bs4'
 Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in <module>
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in
+          <module>
+           ----------
+
+Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
+
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
 
 
 ----------
+
+Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in
+           <module>
+            ----------
 
 Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
 
@@ -804,10 +776,24 @@ ModuleNotFoundError: No module named 'bs4'
 Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in <module>
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in
+            <module>
+             ----------
+
+Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
+
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
 
 
 ----------
+
+Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in
+             <module>
+              ----------
 
 Sun Feb 20 2022 22:41:00 GMT-0800 (Pacific Standard Time)
 
@@ -820,26 +806,9 @@ ModuleNotFoundError: No module named 'bs4'
 Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in <module>
-
-
-----------
-
-Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
-
-    from bs4 import BeautifulSoup
-ModuleNotFoundError: No module named 'bs4'
-
-
-----------
-
-Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
-
-Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in
+              <module>
+               ----------
 
 Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
 
@@ -852,26 +821,9 @@ ModuleNotFoundError: No module named 'bs4'
 Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in <module>
-
-
-----------
-
-Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
-
-    from bs4 import BeautifulSoup
-ModuleNotFoundError: No module named 'bs4'
-
-
-----------
-
-Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
-
-Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in
+               <module>
+                ----------
 
 Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
 
@@ -884,10 +836,9 @@ ModuleNotFoundError: No module named 'bs4'
 Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in
+                <module>
+                 ----------
 
 Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
 
@@ -900,10 +851,39 @@ ModuleNotFoundError: No module named 'bs4'
 Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in <module>
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in
+                 <module>
+                  ----------
+
+Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
+
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
 
 
 ----------
+
+Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in
+                  <module>
+                   ----------
+
+Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
+
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+
+
+----------
+
+Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 4, in
+                   <module>
+                    ----------
 
 Sun Feb 20 2022 22:41:01 GMT-0800 (Pacific Standard Time)
 
@@ -1076,7 +1056,7 @@ The file will have its original line endings in your working directory
 Sun Feb 20 2022 22:41:06 GMT-0800 (Pacific Standard Time)
 
 To github.com:sunbeam9/nurturing-neurons-website.git
- ! [rejected]        main -> main (fetch first)
+ ! [rejected]        main -&gt; main (fetch first)
 error: failed to push some refs to 'github.com:sunbeam9/nurturing-neurons-website.git'
 
 
@@ -1096,10 +1076,9 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Sun Feb 20 2022 22:51:55 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 16, in
+                    <module>
+                     ----------
 
 Sun Feb 20 2022 22:51:55 GMT-0800 (Pacific Standard Time)
 
@@ -1242,7 +1221,7 @@ The file will have its original line endings in your working directory
 Sun Feb 20 2022 22:52:01 GMT-0800 (Pacific Standard Time)
 
 To github.com:sunbeam9/nurturing-neurons-website.git
- ! [rejected]        main -> main (fetch first)
+ ! [rejected]        main -&gt; main (fetch first)
 error: failed to push some refs to 'github.com:sunbeam9/nurturing-neurons-website.git'
 
 
@@ -1262,10 +1241,9 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in
+                     <module>
+                      ----------
 
 Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
 
@@ -1295,7 +1273,7 @@ Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
 
 Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
 
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
   File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
 
 
@@ -1314,10 +1292,9 @@ re.error: missing ), unterminated subpattern at position 3
 Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in
+                      <module>
+                       ----------
 
 Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
 
@@ -1353,7 +1330,7 @@ Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
 
 Sun Feb 20 2022 23:05:07 GMT-0800 (Pacific Standard Time)
 
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
   File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
 
 
@@ -1378,10 +1355,9 @@ re.error: missing ), unterminated subpattern at position 3
 Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in
+                       <module>
+                        ----------
 
 Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
 
@@ -1417,7 +1393,7 @@ Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
 
 Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
 
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
   File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
     itemsappend(_parse(source, state, verbose, nested + 1,
   File "C:\Python310\lib\sre_parse.py", line 836, in _parse
@@ -1436,10 +1412,9 @@ re.error: missing ), unterminated subpattern at position 3
 Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in
+                        <module>
+                         ----------
 
 Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
 
@@ -1475,7 +1450,7 @@ Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
 
 Sun Feb 20 2022 23:05:08 GMT-0800 (Pacific Standard Time)
 
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
   File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
 
 
@@ -1500,10 +1475,9 @@ re.error: missing ), unterminated subpattern at position 3
 Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in
+                         <module>
+                          ----------
 
 Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
 
@@ -1533,7 +1507,7 @@ Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
 
 Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
 
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
   File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
 
 
@@ -1558,10 +1532,9 @@ re.error: missing ), unterminated subpattern at position 3
 Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 17, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 17, in
+                          <module>
+                           ----------
 
 Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
 
@@ -1574,10 +1547,9 @@ TypeError: 'NoneType' object does not support item assignment
 Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in
+                           <module>
+                            ----------
 
 Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
 
@@ -1607,7 +1579,7 @@ Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
 
 Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
 
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
   File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
 
 
@@ -1626,10 +1598,9 @@ re.error: missing ), unterminated subpattern at position 3
 Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in
+                            <module>
+                             ----------
 
 Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
 
@@ -1659,7 +1630,7 @@ Sun Feb 20 2022 23:05:09 GMT-0800 (Pacific Standard Time)
 
     p = sre_parse.parse(p, flags)
   File "C:\Python310\lib\sre_parse.py", line 948, in parse
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
   File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
 
 
@@ -1684,8 +1655,9 @@ re.error: missing ), unterminated subpattern at position 3
 Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
-    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in
+                             <module>
+                              urls = soup.find_all(style=re.compile('url("assets/'))
   File "C:\Python310\lib\re.py", line 251, in compile
 
 
@@ -1717,117 +1689,7 @@ Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
 
 Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
 
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
-  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
-
-
-----------
-
-Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
-
-    itemsappend(_parse(source, state, verbose, nested + 1,
-  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
-
-
-----------
-
-Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
-
-    raise source.error("missing ), unterminated subpattern",
-re.error: missing ), unterminated subpattern at position 3
-
-
-----------
-
-Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
-
-Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
-
-
-----------
-
-Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
-
-    urls = soup.find_all(style=re.compile('url("assets/'))
-  File "C:\Python310\lib\re.py", line 251, in compile
-    return _compile(pattern, flags)
-  File "C:\Python310\lib\re.py", line 303, in _compile
-
-
-----------
-
-Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
-
-    p = sre_compile.compile(pattern, flags)
-  File "C:\Python310\lib\sre_compile.py", line 764, in compile
-
-
-----------
-
-Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
-
-    p = sre_parse.parse(p, flags)
-  File "C:\Python310\lib\sre_parse.py", line 948, in parse
-
-
-----------
-
-Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
-
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
-  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
-
-
-----------
-
-Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
-
-    itemsappend(_parse(source, state, verbose, nested + 1,
-  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
-    raise source.error("missing ), unterminated subpattern",
-re.error: missing ), unterminated subpattern at position 3
-
-
-----------
-
-Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
-
-Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
-
-
-----------
-
-Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
-
-    urls = soup.find_all(style=re.compile('url("assets/'))
-  File "C:\Python310\lib\re.py", line 251, in compile
-    return _compile(pattern, flags)
-  File "C:\Python310\lib\re.py", line 303, in _compile
-
-
-----------
-
-Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
-
-    p = sre_compile.compile(pattern, flags)
-  File "C:\Python310\lib\sre_compile.py", line 764, in compile
-
-
-----------
-
-Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
-
-    p = sre_parse.parse(p, flags)
-  File "C:\Python310\lib\sre_parse.py", line 948, in parse
-
-
-----------
-
-Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
-
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
   File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
 
 
@@ -1852,10 +1714,117 @@ re.error: missing ), unterminated subpattern at position 3
 Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in <module>
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in
+                              <module>
+                               ----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Python310\lib\re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "C:\Python310\lib\re.py", line 303, in _compile
 
 
 ----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python310\lib\sre_compile.py", line 764, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = sre_parse.parse(p, flags)
+  File "C:\Python310\lib\sre_parse.py", line 948, in parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
+  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 3
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in
+                               <module>
+                                ----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    urls = soup.find_all(style=re.compile('url("assets/'))
+  File "C:\Python310\lib\re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "C:\Python310\lib\re.py", line 303, in _compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Python310\lib\sre_compile.py", line 764, in compile
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = sre_parse.parse(p, flags)
+  File "C:\Python310\lib\sre_parse.py", line 948, in parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
+  File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Python310\lib\sre_parse.py", line 836, in _parse
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+    raise source.error("missing ), unterminated subpattern",
+re.error: missing ), unterminated subpattern at position 3
+
+
+----------
+
+Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 33, in
+                                <module>
+                                 ----------
 
 Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
 
@@ -1891,7 +1860,7 @@ Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
 
 Sun Feb 20 2022 23:05:10 GMT-0800 (Pacific Standard Time)
 
-    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+    p = _parse_sub(source, state, flags &amp; SRE_FLAG_VERBOSE, 0)
   File "C:\Python310\lib\sre_parse.py", line 443, in _parse_sub
 
 
@@ -2076,7 +2045,7 @@ The file will have its original line endings in your working directory
 Sun Feb 20 2022 23:05:13 GMT-0800 (Pacific Standard Time)
 
 To github.com:sunbeam9/nurturing-neurons-website.git
-   f140f80..855e00c  main -> main
+   f140f80..855e00c  main -&gt; main
 
 
 ----------
@@ -2084,10 +2053,9 @@ To github.com:sunbeam9/nurturing-neurons-website.git
 Sun Feb 20 2022 23:07:32 GMT-0800 (Pacific Standard Time)
 
 Traceback (most recent call last):
-  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 17, in <module>
-
-
-----------
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 17, in
+                                 <module>
+                                  ----------
 
 Sun Feb 20 2022 23:07:32 GMT-0800 (Pacific Standard Time)
 
@@ -2095,3 +2063,203 @@ Sun Feb 20 2022 23:07:32 GMT-0800 (Pacific Standard Time)
 TypeError: 'NoneType' object does not support item assignment
 
 
+----------
+
+Sun Feb 20 2022 23:07:33 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/css/Website-Styles.css.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:33 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/react-cmt-dropdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:33 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/react-countdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:33 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/react-counter.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:33 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/react-dmd-dropdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:33 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/react-fa-dropdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:33 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/react-neuroart-dropdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:33 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/react-slider.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:33 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/about-us.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:33 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/cmt.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:33 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/contact-us.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:34 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/dmd.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:34 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/error.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:34 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/error.log.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:34 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/events.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:34 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/fa.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:34 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/index.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:34 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/neuroart.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:34 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/silent-auction.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:34 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/webinars.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Sun Feb 20 2022 23:07:37 GMT-0800 (Pacific Standard Time)
+
+To github.com:sunbeam9/nurturing-neurons-website.git
+   855e00c..2419219  main -&gt; main
+                                 </module>
+                                </module>
+                               </module>
+                              </module>
+                             </module>
+                            </module>
+                           </module>
+                          </module>
+                         </module>
+                        </module>
+                       </module>
+                      </module>
+                     </module>
+                    </module>
+                   </module>
+                  </module>
+                 </module>
+                </module>
+               </module>
+              </module>
+             </module>
+            </module>
+           </module>
+          </module>
+         </module>
+        </module>
+       </module>
+      </module>
+     </module>
+    </module>
+   </module>
+  </module>
+ </module>
+</module>

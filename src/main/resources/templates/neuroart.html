@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
  <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport"/>
@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito&amp;display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&amp;display=swap" rel="stylesheet"/>
   <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet"/>
-  <link rel="stylesheet" th:href="@{../assets/css/Website-Styles.css}"/>
+  <link href="assets/css/Website-Styles.css" rel="stylesheet"/>
  </head>
  <body>
   <nav class="navbar navbar-light navbar-expand-md sticky-top d-flex d-xl-flex flex-row" style="background: var(--white);box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);">
@@ -93,7 +93,7 @@
    <div class="container">
     <div class="row">
      <div class="col-md-6 d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center">
-      <img style="max-width: 100%;" th:src="@{../assets/img/neuroart-final-poster.png}"/>
+      <img src="assets/img/neuroart-final-poster.png" style="max-width: 100%;"/>
      </div>
      <div class="col-md-6" style="padding: 32px;">
       <p class="subtitle" style="margin-bottom: 20px;">
@@ -224,9 +224,9 @@
   </script>
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
   </script>
-  <script th:src="@{../assets/js/react-countdown.js}" type="text/babel">
+  <script src="assets/js/react-countdown.js">
   </script>
-  <script th:src="@{../assets/js/react-neuroart-dropdown.js}" type="text/babel">
+  <script src="assets/js/react-neuroart-dropdown.js">
   </script>
  </body>
 </html>
