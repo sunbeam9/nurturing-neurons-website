@@ -330,7 +330,7 @@
   transition: transform 0.5s;
 }
 
-.form-text:not(.is-invalid) {
+.form-text :not(.is-invalid) {
   display: none !important;
 }
 

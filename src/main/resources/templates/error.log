@@ -4892,3 +4892,203 @@ Tue Feb 22 2022 13:51:28 GMT-0800 (Pacific Standard Time)
 TypeError: 'NoneType' object does not support item assignment
 
 
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/Libraries/parsley.min.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/React/react-cmt-dropdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/React/react-countdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/React/react-counter.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/React/react-dmd-dropdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/React/react-fa-dropdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/React/react-neuroart-dropdown.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/React/react-slider.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/js/smart-forms.min.js.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/about-us.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/cmt.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/contact-us.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/dmd.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/error.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:30 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/error.log.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:31 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/events.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:31 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/fa.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:31 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/index.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:31 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/neuroart.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:31 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/silent-auction.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:31 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/templates/webinars.html.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:31 GMT-0800 (Pacific Standard Time)
+
+warning: LF will be replaced by CRLF in src/main/resources/static/assets/css/Website-Styles.css.
+The file will have its original line endings in your working directory
+
+
+----------
+
+Tue Feb 22 2022 13:51:35 GMT-0800 (Pacific Standard Time)
+
+To github.com:sunbeam9/nurturing-neurons-website.git
+   f60eb33..55aee5b  main -> main
+
+
+----------
+
+Tue Feb 22 2022 13:53:20 GMT-0800 (Pacific Standard Time)
+
+Traceback (most recent call last):
+  File "C:\Users\sunbe\OneDrive\Documents\nurturing-neurons-export-scripts\rewrite.py", line 17, in <module>
+
+
+----------
+
+Tue Feb 22 2022 13:53:20 GMT-0800 (Pacific Standard Time)
+
+    html['xmlns'] = "http://www.w3.org/1999/xhtml"
+TypeError: 'NoneType' object does not support item assignment
+
+
