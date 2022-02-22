@@ -330,7 +330,15 @@
   transition: transform 0.5s;
 }
 
-.form-text:not(.is-invalid) {
+#name-errors:not(.is-invalid) {
+  display: none !important;
+}
+
+#email-errors:not(.is-invalid) {
+  display: none !important;
+}
+
+#textarea-errors:not(.is-invalid) {
   display: none !important;
 }
 
