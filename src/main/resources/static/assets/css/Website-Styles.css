@@ -331,11 +331,10 @@
 }
 
 .is-invalid {
-  display: initial;
+  opacity: 100%;
 }
 
 .form-text {
-  position: absolute;
-  display: none;
+  opacity: 0%;
 }
 
