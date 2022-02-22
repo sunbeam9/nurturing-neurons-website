@@ -331,7 +331,7 @@
 }
 
 .is-invalid {
-  opacity: 100%;
+  opacity: 100% !important;
 }
 
 .form-text {
